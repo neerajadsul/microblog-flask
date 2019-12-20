@@ -7,10 +7,10 @@
             <td>
                 <h1>User: {{ user.username }}</h1>
                 {% if user.about_me %}
-                    <p>{{ user.about_me }}</p>
+                    <p>About Me: {{ user.about_me }}</p>
                 {% endif %}
                 {% if user.last_seen %}
-                    <p>{{ user.last_seen }}</p>
+                    <p>Last Seen: {{ user.last_seen }}</p>
                 {% endif %}
             </td>
         </tr>
