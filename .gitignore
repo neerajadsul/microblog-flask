@@ -24,4 +24,4 @@ htmlcov/
 *,cover
 
 .vscode
-logs/microblog.log
+logs/
